@@ -4,6 +4,9 @@ import './registerServiceWorker'
 import router from './router'
 import store from './store'
 
+import WebCam from "../node_modules/vue-web-cam/dist/index";
+Vue.use(WebCam);
+
 Vue.config.productionTip = false
 
 new Vue({
